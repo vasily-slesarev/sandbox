@@ -1,0 +1,2 @@
+Example of usage:
+dd if=/dev/urandom count=100 bs=1MB | base64 | java -cp target/classes io.github.vasily_slesarev.StreamSampler 5
